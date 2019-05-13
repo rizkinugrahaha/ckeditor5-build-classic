@@ -28,6 +28,8 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
+import Comments from '@ckeditor/ckeditor5-comments/src/comments';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -52,7 +54,8 @@ ClassicEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableToolbar
+	TableToolbar,
+	Comments
 ];
 
 // Editor configuration.
@@ -71,7 +74,9 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
+			'|',
+			'comment'
 		]
 	},
 	image: {
@@ -79,7 +84,9 @@ ClassicEditor.defaultConfig = {
 			'imageStyle:full',
 			'imageStyle:side',
 			'|',
-			'imageTextAlternative'
+			'imageTextAlternative',
+			'|',
+			'comment'
 		]
 	},
 	table: {
@@ -87,7 +94,8 @@ ClassicEditor.defaultConfig = {
 			'tableColumn',
 			'tableRow',
 			'mergeTableCells'
-		]
+		],
+		tableToolbar: [ 'comment' ]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'

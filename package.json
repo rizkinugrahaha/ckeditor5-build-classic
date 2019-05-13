@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
+  "name": "@rizknugraha/ckeditor5-build-classic-with-comments",
   "version": "12.1.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
@@ -30,6 +30,7 @@
     "@ckeditor/ckeditor5-basic-styles": "^11.1.0",
     "@ckeditor/ckeditor5-block-quote": "^11.0.1",
     "@ckeditor/ckeditor5-ckfinder": "^11.0.1",
+    "@ckeditor/ckeditor5-comments": "^3.0.0",
     "@ckeditor/ckeditor5-core": "^12.1.0",
     "@ckeditor/ckeditor5-dev-utils": "^12.0.0",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^8.0.0",
