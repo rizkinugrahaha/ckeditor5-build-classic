@@ -1,6 +1,6 @@
 {
-  "name": "@rizknugraha/ckeditor5-build-classic-with-comments",
-  "version": "12.1.0",
+  "name": "ckeditor5-build-classic-with-comments",
+  "version": "12.1.1",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",

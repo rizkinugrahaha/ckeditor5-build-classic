@@ -29,6 +29,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 import Comments from '@ckeditor/ckeditor5-comments/src/comments';
+import CommentsOnly from '@ckeditor/ckeditor5-comments/src/commentsonly';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -55,7 +56,8 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	Comments
+	Comments,
+	CommentsOnly
 ];
 
 // Editor configuration.
